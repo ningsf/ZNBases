@@ -1,0 +1,6 @@
+framework module ZNBases {
+  umbrella header "ZNBases-umbrella.h"
+
+  export *
+  module * { export * }
+}

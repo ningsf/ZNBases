@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZNBases'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZNBases.'
+  s.summary          = '基本工具类'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ZNBases包含一些配置项目的基本工具类
                        DESC
 
   s.homepage         = 'https://github.com/ningsf/ZNBases'

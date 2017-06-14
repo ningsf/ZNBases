@@ -1,0 +1,16 @@
+PODS:
+  - ZNBases (0.1.0)
+
+DEPENDENCIES:
+  - ZNBases (from `../`)
+
+EXTERNAL SOURCES:
+  ZNBases:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZNBases: d958b8587559e45938c98619cce066f471f0bcb2
+
+PODFILE CHECKSUM: 61ebf95fbaf23d48f7fd02cac6aae5fb9762b766
+
+COCOAPODS: 1.2.1
