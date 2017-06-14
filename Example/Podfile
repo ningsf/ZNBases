@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZNBases_Example' do
+  pod 'ZNBases', :path => '../'
+
+  target 'ZNBases_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
