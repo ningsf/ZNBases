@@ -30,8 +30,21 @@ ZNBases包含一些配置项目的基本工具类
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZNBases/Classes/**/*'
-  
+#s.source_files = 'ZNBases/Classes/**/*'
+
+  s.subspec 'Base' do |b|
+  b.source_files = 'ZNBases/Classes/Base/**/*'
+  end
+
+  s.subspec 'Category' do |c|
+  c.source_files = 'ZNBases/Classes/Category/**/*'
+  end
+
+  s.subspec 'Tool' do |t|
+  t.source_files = 'ZNBases/Classes/Tool/**/*'
+  end
+
+
   # s.resource_bundles = {
   #   'ZNBases' => ['ZNBases/Assets/*.png']
   # }
