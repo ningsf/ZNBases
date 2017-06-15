@@ -1,8 +1,8 @@
 {
   "name": "ZNBases",
   "version": "0.1.0",
-  "summary": "A short description of ZNBases.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "基本工具类",
+  "description": "ZNBases包含一些配置项目的基本工具类",
   "homepage": "https://github.com/ningsf/ZNBases",
   "license": {
     "type": "MIT",
